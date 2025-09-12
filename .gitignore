@@ -1,0 +1,54 @@
+# ------------------------
+# Python
+# ------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+.conda/
+
+# VSCode / IDEs
+.vscode/
+.idea/
+
+# ------------------------
+# Project-specific
+# ------------------------
+
+# Raw data
+data/raw/
+
+# But keep metadata (explicitly allow)
+!data/metadata/
+
+# Results can be regenerated
+results/figures/
+results/tables/
+results/logs/
+
+# Large binary files
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.mat
+*.zip
+*.tar.gz
+
+# ------------------------
+# OS clutter
+# ------------------------
+.DS_Store
+Thumbs.db
+
