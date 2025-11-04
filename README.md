@@ -7,39 +7,23 @@ microdialysis_paper/
 
 │── data/
 
-│   ├── raw/             # instrument exports (videos / LCMS) (NOT UPLOADED HERE)
+│   ├── raw/             # LCMS data and Video tracking
 
 │   ├── processed/       # cleaned & normalized datasets
 
-│   └── metadata/        # animal/sample metadata, QC notes
+│   └── metadata/        # experiments metadata & notes
 
 │
 
 │── scripts/
 
-│   ├── preprocessing/   # normalization, QC, filtering
+│   ├── preprocessing/   # data preprocessing
 
-│   ├── analysis/        # statistics and group comparisons
-
-│   ├── figures/         # reproducible figure generation
-
-│   └── utils/           # helper functions (e.g., plotting, stats)
-
+│   ├── analysis/        # statistics and figures
 │
 
-│── results/
+├── figures/         	 # exported figures for manuscript
 
-│   ├── figures/         # exported figures for manuscript
-
-│   ├── tables/          # statistical summaries
-
-│   └── logs/            # run logs, reproducibility notes
-
-│
+├── environment.yml      # Environment specification
 
 └── README.md            # this file
-
-
-Python: pandas, numpy, matplotlib, statsmodels
-
-Environment specification: see environment.yml
