@@ -13,8 +13,6 @@ microdialysis_paper/
 
 │   └── metadata/        # experiments metadata & notes
 
-│
-
 │── scripts/
 
 │   ├── preprocessing/   # data preprocessing
@@ -26,4 +24,4 @@ microdialysis_paper/
 
 ├── environment.yml      # Environment specification
 
-└── README.md            # this file
+└── README.md            
