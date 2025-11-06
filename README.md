@@ -24,4 +24,9 @@ microdialysis_paper/
 
 ├── environment.yml      # Environment specification
 
-└── README.md            
+└── README.md     
+
+It is reccomended to run all the scripts in the environment specifications above:
+
+>> conda env create -f environment.yml
+>> conda activate Microdialysis       
