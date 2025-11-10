@@ -30,7 +30,7 @@ It is reccomended to run all the scripts in the environment specifications above
 
 If using mamba (reccomended), use
 
->> mamba env create -f Microdialysis.yml
+>> mamba env create -f environment.yml
 
 or the equivalent conda command
 
