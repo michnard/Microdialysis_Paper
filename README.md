@@ -28,8 +28,18 @@ microdialysis_paper/
 
 It is reccomended to run all the scripts in the environment specifications above:
 
+If using mamba (reccomended), use
+
+>> mamba env create -f Microdialysis.yml
+
+or the equivalent conda command
+
 >> conda env create -f environment.yml
 
 and then
+
+>> mamba activate Microdialysis      
+
+or
 
 >> conda activate Microdialysis       
