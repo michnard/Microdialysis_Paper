@@ -29,4 +29,7 @@ microdialysis_paper/
 It is reccomended to run all the scripts in the environment specifications above:
 
 >> conda env create -f environment.yml
+
+and then
+
 >> conda activate Microdialysis       
