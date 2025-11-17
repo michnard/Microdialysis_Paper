@@ -1,1 +1,25 @@
 Notes on animal 1
+
+Session date: June 19
+
+Recording time: 9:38 – 17:44 (~85min break in the middle)
+
+Total samples collected: 48 (7.5 min interval)
+
+Flow rate: 1.2 µL/min
+
+Probe to tube delay: 14min38sec
+
+Events:
+
+There was a power failure at 16:06. 
+the 16th sample of the afternoon (E6) was very small (1uL) and was added to the next one by Nan. 
+Within 2 minutes restarted everything. 
+
+At the end of recording, I increased the flow rate to 9 uL/min to quicly recover the dyalisate that was collected during last 7.5min recording.
+
+Processing notes:
+
+Removed behavior 16:06 to 16:08 to correct for the mishap. 
+See data_preprocessing script for details.
+
