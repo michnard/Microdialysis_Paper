@@ -7,7 +7,7 @@ microdialysis_paper/
 
 │── data/
 
-│   ├── raw/             # LCMS data and Video tracking (not here -- download from Figshare 10.25378/janelia.30556511)
+│   ├── raw/             # LCMS data and Video tracking (not here -- download from https://doi.org/10.25378/janelia.30556511)
 
 │   ├── processed/       # cleaned & normalized datasets
 
